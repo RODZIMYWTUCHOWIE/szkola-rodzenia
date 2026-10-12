@@ -159,7 +159,7 @@ document.getElementById('form').onsubmit=function(e){
 
   const term=document.getElementById('term').value.split('|');
   const fields={
-    Termin: term[1] || '',
+    Termin: term[0] || '',
     Panel: term[2] || '',
     imieNazwisko: document.getElementById('name').value.trim(),
     wiek: document.getElementById('age').value,
@@ -184,7 +184,7 @@ document.getElementById('form').onsubmit=function(e){
     input.value=value;
   });
 
-  this.action='https://hook.eu2.make.com/kp29346pwvfxwykgin43i1b4sm8ltge8';
+  this.action='https://hook.eu2.make.com/tiq2yfg7qacv436asti97vsh95ufba7p';
   this.method='POST';
   this.target='_self';
 };
